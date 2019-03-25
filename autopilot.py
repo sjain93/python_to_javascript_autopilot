@@ -71,7 +71,9 @@ def add_one_car_per_day(cars, num_days):
   for day in range(0, num_days):
     new_car = get_new_car()
     print(add_car(cars, new_car))
-    command_fleet(cars)
+    # command_fleet(cars)
 
 cars = []
 add_one_car_per_day(cars, 10)
+# add_car(cars, new_car)
+print(cars)
